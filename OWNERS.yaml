@@ -1,0 +1,84 @@
+# user friendly name
+name: Hyperledger Besu Client
+# user friendly description
+description: This organization hosts Kubernetes API client libraries.
+# _if_ feasable, toggle the "merge button" behavior
+merge:
+  #- merge
+  - squash
+  #- rebase
+# For a change to be applied to the repo, one of these users either need to have authored the commit
+# or manually activated the github action.
+admins:
+  - abdelhamidbakhta
+  - ajsutton
+  - benjamincburns
+  - joshuafernandes
+  - lucassaldanha
+  - mbaxter
+  - shemnon
+# Do we need this?  If used would the users be on this list to be in another group
+members:
+  - abdelhamidbakhta
+  - ajsutton
+  - atoulme
+  - bgravenorst
+  - davemec
+  - edwardmack
+  - jframe
+  - joshuafernandes
+  - lucassaldanha
+  - macfarla
+  - MadelineMurray
+  - mark-terry
+  - matkt
+  - mbaxter
+  - NicolasMassart
+  - pinges
+  - rain-on
+  - RatanRSur
+  - shemnon
+  - usmansaleem
+teams:
+  - name: Admins
+    description: Maintainers with github admin access
+    # maps to the github roles
+    github-role: Admin
+    members:
+      - abdelhamidbakhta
+      - ajsutton
+      - benjamincburns
+      - joshuafernandes
+      - lucassaldanha
+      - mbaxter
+      - shemnon
+  - name: Maintainers
+    description: Maintainers, can write to the git repository
+    github-role: Write
+    members:
+      - abdelhamidbakhta
+      - ajsutton
+      - atoulme
+      - bgravenorst
+      - davemec
+      - edwardmack
+      - jframe
+      - joshuafernandes
+      - lucassaldanha
+      - macfarla
+      - MadelineMurray
+      - mark-terry
+      - matkt
+      - mbaxter
+      - NicolasMassart
+      - pinges
+      - rain-on
+      - RatanRSur
+      - shemnon
+      - usmansaleem
+  - name: PMs
+    description: Contributors with triage access, i.e. can manage issues and be assigned issues
+    github-role: Triage
+    members:
+      - vmichalik
+      - SajidaZ
