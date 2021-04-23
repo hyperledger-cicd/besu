@@ -9,36 +9,6 @@ merge:
   #- rebase
 # For a change to be applied to the repo, one of these users either need to have authored the commit
 # or manually activated the github action.
-admins:
-  - abdelhamidbakhta
-  - ajsutton
-  - benjamincburns
-  - joshuafernandes
-  - lucassaldanha
-  - mbaxter
-  - shemnon
-# Do we need this?  If used would the users be on this list to be in another group
-members:
-  - abdelhamidbakhta
-  - ajsutton
-  - atoulme
-  - bgravenorst
-  - davemec
-  - edwardmack
-  - jframe
-  - joshuafernandes
-  - lucassaldanha
-  - macfarla
-  - MadelineMurray
-  - mark-terry
-  - matkt
-  - mbaxter
-  - NicolasMassart
-  - pinges
-  - rain-on
-  - RatanRSur
-  - shemnon
-  - usmansaleem
 teams:
   - name: Admins
     description: Maintainers with github admin access
