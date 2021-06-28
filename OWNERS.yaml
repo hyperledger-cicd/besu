@@ -14,11 +14,15 @@ teams:
     description: Maintainers with github admin access
     # maps to the github roles
     github-role: Admin
-    members:
+    members: [
+      "rjones"
+    ]
   - name: besu_maintainers
     description: Maintainers, can write to the git repository
     github-role: Write
-    members:
+    members: [
+      "shemnon"
+    ]
   - name: besu_pms
     description: Contributors with triage access, i.e. can manage issues and be assigned issues
     github-role: Triage
